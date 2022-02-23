@@ -11,11 +11,6 @@ public class LoginSteps extends BaseUiSteps {
         super(uiScenarioContext);
     }
 
-    @Given("User is not logged in")
-    public void userIsNotLoggedIn() {
-        driver.manage().deleteAllCookies();
-    }
-
     @Then("Login page fields are displayed")
     public void loginPageFieldsAreDisplayed() throws InterruptedException {
         assertions.assertThat(pagesContainer.getLoginPage().checkUserNameExist()).isEqualTo(true);

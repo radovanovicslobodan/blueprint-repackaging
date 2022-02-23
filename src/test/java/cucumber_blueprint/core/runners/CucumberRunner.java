@@ -9,12 +9,19 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/",
+        features = {
+                "classpath:features"
+        },
         glue = {
                 "cucumber_blueprint"
         },
         tags = "@regression",
-        plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "json:target/cucumber.json", "junit:target/test-results/Cucumber.xml"}
+        plugin = {
+                "pretty",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                "json:target/cucumber.json",
+                "junit:target/test-results/Cucumber.xml"
+        }
 )
 @Slf4j
 public class CucumberRunner {
