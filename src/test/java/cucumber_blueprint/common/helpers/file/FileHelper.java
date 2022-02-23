@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.file_helper;
+package cucumber_blueprint.common.helpers.file;
 
 import lombok.extern.slf4j.Slf4j;
 

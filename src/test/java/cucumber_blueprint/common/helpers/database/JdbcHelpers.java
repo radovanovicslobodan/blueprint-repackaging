@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.db_helpers;
+package cucumber_blueprint.common.helpers.database;
 
 import lombok.SneakyThrows;
 

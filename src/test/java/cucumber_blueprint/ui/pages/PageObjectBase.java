@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.ui;
+package cucumber_blueprint.ui.pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;

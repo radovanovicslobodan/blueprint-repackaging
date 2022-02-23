@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.back_end;
+package cucumber_blueprint.common.helpers.backend;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

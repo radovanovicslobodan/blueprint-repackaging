@@ -1,7 +1,7 @@
 package cucumber_blueprint.ui.steps;
 
 import cucumber_blueprint.common.common_steps.BaseUiSteps;
-import cucumber_blueprint.data_containers.UiScenarioContext;
+import cucumber_blueprint.core.driver.UiScenarioContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 

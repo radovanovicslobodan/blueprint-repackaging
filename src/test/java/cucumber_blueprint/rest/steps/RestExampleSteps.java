@@ -1,6 +1,6 @@
 package cucumber_blueprint.rest.steps;
 
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import cucumber_blueprint.rest.helpers.RestGetEmployeeHelpers;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

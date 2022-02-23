@@ -1,7 +1,7 @@
 package cucumber_blueprint.gql.steps.rick_morty;
 
 import com.google.gson.Gson;
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import cucumber_blueprint.gql.helpers.rick_morty.RickMortyGQLHelper;
 import cucumber_blueprint.gql.response.character_response.Character;
 import cucumber_blueprint.gql.response.character_response.CharacterResponse;

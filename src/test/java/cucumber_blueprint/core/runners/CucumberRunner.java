@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.runners;
+package cucumber_blueprint.core.runners;
 
 import cucumber_blueprint.common.helpers.cukedoctor.GenerateDoc;
 import io.cucumber.junit.Cucumber;

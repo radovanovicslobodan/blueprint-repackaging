@@ -2,11 +2,11 @@ package cucumber_blueprint.common.common_steps;
 
 import cucumber_blueprint.common.helpers.environment.Env;
 import cucumber_blueprint.common.helpers.environment.YamlReader;
-import cucumber_blueprint.common.helpers.ui.BaseDriver;
-import cucumber_blueprint.data_containers.PagesContainer;
-import cucumber_blueprint.data_containers.UiScenarioContext;
-import cucumber_blueprint.common.helpers.ui.DriverUtils;
-import cucumber_blueprint.data_containers.CommonProperties;
+import cucumber_blueprint.core.driver.BaseDriver;
+import cucumber_blueprint.core.driver.PagesContainer;
+import cucumber_blueprint.core.driver.UiScenarioContext;
+import cucumber_blueprint.core.driver.DriverUtils;
+import cucumber_blueprint.common.properties.CommonProperties;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;

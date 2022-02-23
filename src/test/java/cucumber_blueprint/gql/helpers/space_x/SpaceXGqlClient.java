@@ -1,7 +1,7 @@
 package cucumber_blueprint.gql.helpers.space_x;
 
 
-import cucumber_blueprint.common.helpers.back_end.RestHelpers;
+import cucumber_blueprint.common.helpers.backend.RestHelpers;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 

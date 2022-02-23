@@ -1,8 +1,8 @@
 package cucumber_blueprint.gql.helpers.rick_morty;
 
 import com.google.gson.Gson;
-import cucumber_blueprint.common.helpers.back_end.GQLHelpers;
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.common.helpers.backend.GQLHelpers;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import io.restassured.response.Response;
 import lombok.SneakyThrows;
 

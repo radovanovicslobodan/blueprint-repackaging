@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.ui;
+package cucumber_blueprint.core.driver;
 
 import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;

@@ -1,7 +1,7 @@
 package cucumber_blueprint.rest.steps;
 
 import cucumber_blueprint.common.common_steps.BaseRestSteps;
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import cucumber_blueprint.rest.helpers.LoginHelpers;
 import io.cucumber.java.en.When;
 

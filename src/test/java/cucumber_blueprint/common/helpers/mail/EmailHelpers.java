@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.mail_helpers;
+package cucumber_blueprint.common.helpers.mail;
 
 
 import cucumber_blueprint.common.helpers.font_converter.FontConverter;

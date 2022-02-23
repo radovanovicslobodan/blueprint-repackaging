@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.back_end.graphqlv2;
+package cucumber_blueprint.common.helpers.backend.graphqlv2;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.core.JsonParser;

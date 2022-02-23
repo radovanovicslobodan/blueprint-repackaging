@@ -1,8 +1,8 @@
 package cucumber_blueprint.common.common_steps;
 
-import cucumber_blueprint.data_containers.PagesContainer;
-import cucumber_blueprint.data_containers.UiScenarioContext;
-import cucumber_blueprint.common.helpers.ui.DriverUtils;
+import cucumber_blueprint.core.driver.PagesContainer;
+import cucumber_blueprint.core.driver.UiScenarioContext;
+import cucumber_blueprint.core.driver.DriverUtils;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

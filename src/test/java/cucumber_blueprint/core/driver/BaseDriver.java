@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.ui;
+package cucumber_blueprint.core.driver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

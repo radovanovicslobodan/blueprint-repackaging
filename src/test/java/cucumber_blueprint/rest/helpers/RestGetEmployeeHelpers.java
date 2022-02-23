@@ -1,7 +1,7 @@
 package cucumber_blueprint.rest.helpers;
 
-import cucumber_blueprint.common.helpers.back_end.RestHelpers;
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.common.helpers.backend.RestHelpers;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;

@@ -1,6 +1,6 @@
 package cucumber_blueprint.gql.steps.space_x;
 
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import cucumber_blueprint.gql.helpers.space_x.SpaceXGqlClient;
 import cucumber_blueprint.gql.helpers.space_x.SpaceXMissionsDataHandler;
 import cucumber_blueprint.gql.helpers.space_x.SpaceXRocketsDataHandler;

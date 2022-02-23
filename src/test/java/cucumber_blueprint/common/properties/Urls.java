@@ -1,6 +1,4 @@
-package cucumber_blueprint.common.helpers.ui;
-
-import cucumber_blueprint.data_containers.CommonProperties;
+package cucumber_blueprint.common.properties;
 
 public class Urls {
     public static String login() {

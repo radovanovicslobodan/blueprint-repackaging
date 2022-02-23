@@ -1,4 +1,4 @@
-package cucumber_blueprint.data_containers;
+package cucumber_blueprint.core.driver;
 
 import cucumber_blueprint.ui.pages.LoginPage;
 import org.openqa.selenium.WebDriver;

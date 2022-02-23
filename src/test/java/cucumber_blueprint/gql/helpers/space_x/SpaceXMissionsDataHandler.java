@@ -1,7 +1,7 @@
 package cucumber_blueprint.gql.helpers.space_x;
 
-import cucumber_blueprint.common.helpers.back_end.graphqlv2.GraphQLMapper;
-import cucumber_blueprint.common.helpers.back_end.graphqlv2.RequestType;
+import cucumber_blueprint.common.helpers.backend.graphqlv2.GraphQLMapper;
+import cucumber_blueprint.common.helpers.backend.graphqlv2.RequestType;
 import cucumber_blueprint.gql.helpers.space_x.request.MissionsFind;
 import cucumber_blueprint.gql.helpers.space_x.services.Mission;
 import io.restassured.builder.RequestSpecBuilder;

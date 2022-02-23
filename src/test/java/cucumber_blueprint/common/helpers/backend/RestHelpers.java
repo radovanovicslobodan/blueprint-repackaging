@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.back_end;
+package cucumber_blueprint.common.helpers.backend;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;

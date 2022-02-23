@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.ui.annotations;
+package cucumber_blueprint.common.annotations;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WrapsElement;

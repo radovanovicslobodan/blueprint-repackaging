@@ -1,4 +1,4 @@
-package cucumber_blueprint.data_containers;
+package cucumber_blueprint.core.api;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 

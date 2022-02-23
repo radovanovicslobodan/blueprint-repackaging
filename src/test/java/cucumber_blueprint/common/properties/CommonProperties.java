@@ -1,4 +1,4 @@
-package cucumber_blueprint.data_containers;
+package cucumber_blueprint.common.properties;
 
 public class CommonProperties {
     public static String envName;

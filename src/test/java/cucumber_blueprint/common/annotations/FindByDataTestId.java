@@ -1,4 +1,4 @@
-package cucumber_blueprint.common.helpers.ui.annotations;
+package cucumber_blueprint.common.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

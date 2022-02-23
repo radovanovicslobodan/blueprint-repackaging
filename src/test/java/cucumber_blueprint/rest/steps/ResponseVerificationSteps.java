@@ -1,6 +1,6 @@
 package cucumber_blueprint.rest.steps;
 
-import cucumber_blueprint.data_containers.RestScenarioContext;
+import cucumber_blueprint.core.api.RestScenarioContext;
 import io.cucumber.java.en.Then;
 import org.assertj.core.api.SoftAssertions;
 

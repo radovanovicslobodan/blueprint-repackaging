@@ -1,6 +1,7 @@
-package cucumber_blueprint.data_containers;
+package cucumber_blueprint.core.driver;
 
-import cucumber_blueprint.common.helpers.ui.DriverUtils;
+import cucumber_blueprint.core.driver.DriverUtils;
+import cucumber_blueprint.core.driver.PagesContainer;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

@@ -1,6 +1,5 @@
 package cucumber_blueprint.ui.pages;
 
-import cucumber_blueprint.common.helpers.ui.PageObjectBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
