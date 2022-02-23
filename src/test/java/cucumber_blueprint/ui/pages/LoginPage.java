@@ -1,0 +1,30 @@
+package cucumber_blueprint.ui.pages;
+
+import cucumber_blueprint.common.helpers.ui.PageObjectBase;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class LoginPage extends PageObjectBase {
+
+    public LoginPage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
+    }
+
+    @FindBy(css="div[data-testid='loginInputUsername']")
+    public WebElement username;
+
+    @FindBy(css="div[data-testid='loginInputPassword']")
+    public WebElement password;
+
+    public boolean checkUserNameExist() {
+        return isElementDisplayed(username);
+    }
+
+    public boolean checkPasswordExist() {
+        return isElementDisplayed(password);
+    }
+
+
+}

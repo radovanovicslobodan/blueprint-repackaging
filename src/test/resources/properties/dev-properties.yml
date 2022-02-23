@@ -1,0 +1,4 @@
+---
+  name: dev
+  restUri: http://inflamco-public-test-1904104414.us-east-1.elb.amazonaws.com
+  webUri: http://webapp.inflamco.test.s3-website-us-east-1.amazonaws.com

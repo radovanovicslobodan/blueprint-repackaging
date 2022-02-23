@@ -1,0 +1,4 @@
+---
+  name: qa
+  restUri: http://dummy.restapiexample.com
+  webUri: http://webapp.inflamco.test.s3-website-us-east-1.amazonaws.com

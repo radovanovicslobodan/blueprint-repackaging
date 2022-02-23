@@ -1,0 +1,41 @@
+image: gradle:7.2.0-jdk17
+
+# Workflow Configuration
+
+pipelines:
+  custom:
+    fe-pipeline:
+      - step: &gradle-fe-test
+          name: Build and Test Frontend
+          caches:
+            - gradle
+          script:
+            - apt-get update && apt-get -y install firefox
+            - sh gradlew cucumber "-Dcucumber.filter.tags=@ui" -DWEB_APP_URI=$WEB_APP_URI -Ddriver=$WEB_DRIVER
+          artifacts:
+            - build/reports/tests/cucumber/**
+    be-pipeline:
+      - step: &gradle-be-test
+          name: Build and Test Backend
+          caches:
+            - gradle
+          script:
+            - sh gradlew cucumber "-Dcucumber.filter.tags=@rest" -DREST_URI=$REST_URI
+          artifacts:
+            - build/reports/tests/cucumber/**
+
+  default:
+    - parallel:
+        - step: *gradle-fe-test
+        - step: *gradle-be-test
+  branches:
+    master:
+      - parallel:
+          - step: *gradle-fe-test
+          - step: *gradle-be-test
+          - step:
+              name: Security Scan
+              script:
+                # Run a security scan for sensitive data.
+                # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+                - pipe: atlassian/git-secrets-scan:0.5.1
