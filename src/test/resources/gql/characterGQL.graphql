@@ -1,7 +1,0 @@
-query character($id:ID!){
-    character(id:$id){
-        name
-        status
-        gender
-    }
-}
