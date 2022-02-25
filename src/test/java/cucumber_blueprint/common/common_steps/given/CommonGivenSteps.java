@@ -2,6 +2,7 @@ package cucumber_blueprint.common.common_steps.given;
 
 import cucumber_blueprint.common.common_steps.BaseUiSteps;
 import cucumber_blueprint.core.driver.UiScenarioContext;
+import cucumber_blueprint.ui.pages.LoginPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -19,8 +20,8 @@ public class CommonGivenSteps extends BaseUiSteps {
         driver.manage().deleteAllCookies();
     }
 
-    @When("{string} element is displayed")
-    public void isElementDisplayed(String field) throws Exception {
+    @When("On {string} page {string} element is displayed")
+    public void isElementDisplayed1(String page, String field) {
         WebElement element = driver.findElement(By.id(field));
         Assert.assertTrue(element.isDisplayed());
     }

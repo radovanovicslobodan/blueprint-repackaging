@@ -12,7 +12,7 @@ public class LoginSteps extends BaseUiSteps {
     }
 
     @Then("Login page fields are displayed")
-    public void loginPageFieldsAreDisplayed() throws InterruptedException {
+    public void loginPageFieldsAreDisplayed() {
         assertions.assertThat(pagesContainer.getLoginPage().checkUserNameExist()).isEqualTo(true);
         assertions.assertThat(pagesContainer.getLoginPage().checkPasswordExist()).isEqualTo(true);
         assertions.assertAll();
